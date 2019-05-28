@@ -20,7 +20,7 @@ const AddTodo = ({ dispatch }) => {
         <button type="submit">Add Todo</button>
       </form>
     </div>
-  )
+  ) 
 }
 
 export default connect()(AddTodo)
